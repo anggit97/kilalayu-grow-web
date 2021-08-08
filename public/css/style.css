@@ -151,6 +151,9 @@ a.twitter .front {
 a.facebook .front {
     background: #3b5998;
 }
+a.whatsapp .front {
+    background: #25cc62;
+}
 a.instagram .front {
     background: #f77737;
 }
@@ -194,6 +197,9 @@ a.pinterest .front {
 .twitter{
     background: #00acee;
 }
+.whatsapp{
+	background: #25cc62;
+}
 .google-plus{
 	background:#dd4b39;
 }
@@ -223,11 +229,13 @@ li.share {
 .logo_agile {
     text-align: center;
 }
-.logo_agile span {
-    background: #000;
-    padding: 0 17px;
-    font-weight: bold;
-    color: #fff;
+.logo_agile img {
+	float: left;
+	width: 80px;
+	height: 60px;
+}
+.logo_agile h1 {
+	position: relative;
 }
 .logo_agile h1 a {
     font-weight: 300;
